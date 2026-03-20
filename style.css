@@ -2,6 +2,7 @@ body {
   background-color: hsl(0, 0%, 7%);
   color: white;
   padding: 10px 10px;
+  font-family: system-ui, Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -37,11 +38,15 @@ p {
   transform: scale(1.04);
 }
 
-#checkOutGitty {
-  
+.linkables:hover {
+  font-size: 21px;
 }
 
-#checkOutGitty:hover {
+.linkables:active {
+  font-size: 22px;
+}
+
+.linkables:hover {
   border-color: hsl(221 100 70);
   background-color: hsl(221 100 60);
   color: black;

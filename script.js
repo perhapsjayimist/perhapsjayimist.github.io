@@ -1,7 +1,7 @@
-const checkOutGitty = document.getElementById("checkOutGitty");
+const linkables = document.querySelectorAll(".linkables");
 
-
-
-checkOutGitty.addEventListener("click", () => {
-  checkOutGitty.textContent = "Thanks for checking it out!";
+linkables.forEach(link => {
+  link.addEventListener("click", (event) => {
+    link.textContent = "Thanks for checking out! 😎";
+  });
 });
