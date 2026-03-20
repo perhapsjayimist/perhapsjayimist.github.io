@@ -15,16 +15,18 @@ p {
 .genericButton {
   border: Solid;
   border-radius: 10px;
-  border-color: hsl(0 0 22);
+  border-color: hsl(0 0 12);
 
   font-size: 20px;
   color: white;
 
-  background-color: hsl(0 0 17);
+  background-color: hsl(0 0 10);
 
   padding: 5px 10px;
 
   transition: all 0.15s ease-in-out;
+
+  cursor: pointer;
 }
 
 .genericButton:hover {
@@ -32,10 +34,15 @@ p {
 }
 
 .genericButton:active {
-  transform: scale(1.03);
+  transform: scale(1.04);
 }
 
 #checkOutGitty {
+  
+}
+
+#checkOutGitty:hover {
   border-color: hsl(221 100 70);
   background-color: hsl(221 100 60);
+  color: black;
 }
